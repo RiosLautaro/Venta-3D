@@ -1,120 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogo - Bay3d</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalogo Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="shortcut icon" href="../favicon.ico.jpeg">
     <link rel="stylesheet" href="../Css/estilos.css">
 </head>
 
 <body>
 
-    <div class="container__grid">
-        <header class="header">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient d-flex">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../Assets/Logo.jpeg" alt="" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogo
+                            </a>
+                            <ul class="dropdown-menu bg-secondary bg-gradient" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-light" href="#Filamentos">Filamentos</a></li>
+                                <li><a class="dropdown-item text-light" href="#Accesorios">Accesorios</a></li>
+                                <li><a class="dropdown-item text-light" href="#Adornos">Adornos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="../Paginas/pago.html">Formas de pago</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../Paginas/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../Paginas/Contacto.html">Contacto</a>
+                        </li>
 
-            <nav class="header__nav">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Catalogo</a></li>
-                    <li><a href="../Paginas/pago.html">Formas de pago</a></li>
-                    <li><a href="../Paginas/Nosotros.html">Nosotros</a></li>
-                    <li><a href="../Paginas/Contacto.html">Contacto</a></li>
-                </ul>
-                <div>
-                    <ul>
-                        <li class="derecha">+54 11 39282143</li>
-                        <li class="derecha">Brown 225, local 3. Bahia Blanca</li>
-                        <li class="derecha"><a href="https://instagram.com/" target="_blank"><img
-                                    src="../Assets\Instagram.png" alt="ig logo"></a></li>
-                        <li class="derecha"><a href="https://youtube.com/" target="_blank"><img
-                                    src="../Assets\Youtube.png" alt="yt logo"></a></li>
-                        <li class="derecha"><a href="https://www.facebook.com/" target="_blank"><img
-                                    src="../Assets\Facebook.png" alt="fb logo"></a></li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">+54 11 39282143</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">Brown 225, local 3. Bahia Blanca</a>
+                        </li>
+
                     </ul>
+
+                    <!-- FALTA AGREGAR RRSS -->
+
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+            <div class="container-fluid bg-warning">
+                <p>
+                    <button class="btn btn-outline-dark btn-lg" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Categorias <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                        </svg>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div id="list-example" class="list-group">
+                            <a class="list-group-item list-group-item-action" href="#Filamentos">Filamentos</a>
+                            <a class="list-group-item list-group-item-action" href="#Accesorios">Accesorios</a>
+                            <a class="list-group-item list-group-item-action" href="#Adornos">Adornos</a>
+                        </div>
+                    </div>
                 </div>
 
-            </nav>
 
-            <section class="barra">
+            </div>
+            <div>
+                <h4 id="Filamentos">Filamentos</h4>
+                <div class="container-fluid bg-secondary d-flex justify-content-center align-items-center">
+                    <div class="row flex-lg-row flex-sm-column">
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text "><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center align-self-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="barra__logo">
-                    <a href="../index.html"><img src="../Assets/Logo.jpeg" alt="Logo principal" width="100"></a>
                 </div>
 
-                <div class="barra__buscador">
-                    *BUSCADOR*
+
+                <h4 id="Accesorios">Accesorios</h4>
+                <div class="container-fluid bg-secondary d-flex justify-content-center align-items-center">
+                    <div class="row flex-lg-row flex-sm-column">
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text "><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center align-self-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="barra__iconos">
-                    <img src="../Assets/Carrito de compras.png" alt="Carrito">
+                <h4 id="Adornos">Adornos</h4>
+                <div class="container-fluid bg-secondary d-flex justify-content-center align-items-center">
+                    <div class="row flex-lg-row flex-sm-column">
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text "><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center align-self-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 align-self-center pb-3 pt-3">
+                            <div class="card text-center" style="width: 20rem;">
+                                <img src="../Assets/Mate 3.jpeg" class="card-img-top" alt="Mate Mario">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mate Mario Bros</h5>
+                                    <p class="card-text">Mate hecho 100% de filamento de plastico, duradero y preparado para
+                                        altas temperaturas.</p>
+                                    <p class="card-text"><small class="text-muted">$1.200</small></p>
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </section>
-
-        </header>
-
-        <main class="main">
-
-            <div class="contacto"></div>
-
-            <fieldset>
-                <legend>Categorias</legend>
-                <ul>
-                    <li><a href="Catalogo.html#Filamentos">Filamentos</a></li>
-                    <li><a href="Catalogo.html#Accesorios">Accesorios</a></li>
-                    <li><a href="Catalogo.html#Adornos">Adornos</a></li>
-                </ul>
-
-            </fieldset>
-
-            <section id="Filamentos">
-
-                <h2>Filamentos</h2>
-
-                <!--Posteriormente, se cambiaran los links por los correspondientes a cada producto-->
-
-                <a href="#"><img src="../Assets/Mate 3.jpeg" alt="Item 1" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Mate 3.jpeg" alt="Item 2" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Mate 3.jpeg" alt="Item 3" height="250" width="250"></a>
-
-            </section>
-
-            <hr>
-
-            <section id="Accesorios">
-
-                <h2>Accesorios</h2>
-
-                <!--Posteriormente, se cambiaran los links por los correspondientes a cada producto-->
-
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 4" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 5" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 6" height="250" width="250"></a>
-
-            </section>
-
-            <hr>
-
-            <section id="Adornos">
-
-                <h2>Adornos</h2>
-
-                <!--Posteriormente, se cambiaran los links por los correspondientes a cada producto-->
-
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 7" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 8" height="250" width="250"></a>
-                <a href="#"><img src="../Assets/Maceta 1.jpeg" alt="Item 9" height="250" width="250"></a>
-
-            </section>
-
-            <hr>
+            </div>
 
 
 
         </main>
-
-        <hr>
 
         <footer class="footer">
 
@@ -164,9 +271,14 @@
 
         </footer>
 
-    </div>
 
 
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
