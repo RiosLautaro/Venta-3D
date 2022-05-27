@@ -8,53 +8,164 @@
     <title>Metodos de pago - Bay3d</title>
     <link rel="shortcut icon" href="../favicon.ico.jpeg">
     <link rel="stylesheet" href="../Css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
 
-        <nav class="header__nav">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Paginas/Catalogo.html">Catalogo</a></li>
-                <li><a href="#">Formas de pago</a></li>
-                <li><a href="../Paginas/Nosotros.html">Nosotros</a></li>
-                <li><a href="../Paginas/Contacto.html">Contacto</a></li>
-            </ul>
-            <div>
-                <ul>
-                    <li class="derecha">+54 11 39282143</li>
-                    <li class="derecha">Brown 225, local 3. Bahia Blanca</li>
-                    <li class="derecha"><a href="https://instagram.com/" target="_blank"><img
-                                src="../Assets\Instagram.png" alt="ig logo"></a></li>
-                    <li class="derecha"><a href="https://youtube.com/" target="_blank"><img src="../Assets\Youtube.png"
-                                alt="yt logo"></a></li>
-                    <li class="derecha"><a href="https://www.facebook.com/" target="_blank"><img
-                                src="../Assets\Facebook.png" alt="fb logo"></a></li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient d-flex">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Assets/Logo.jpeg" alt="" width="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogo
+                            </a>
+                            <ul class="dropdown-menu bg-secondary bg-gradient" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-light" href="Catalogo.html#Filamentos">Filamentos</a>
+                                </li>
+                                <li><a class="dropdown-item text-light" href="Catalogo.html#Accesorios">Accesorios</a>
+                                </li>
+                                <li><a class="dropdown-item text-light" href="Catalogo.html#Adornos">Adornos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="../Paginas/pago.html">Formas de
+                                pago</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../Paginas/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../Paginas/Contacto.html">Contacto</a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">+54 11 39282143</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">Brown 225, local 3. Bahia Blanca</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- FALTA AGREGAR RRSS -->
+
+                </div>
+            </div>
         </nav>
-
-        <section class="barra">
-
-            <div class="barra__logo">
-                <a href="../index.html"><img src="../Assets/Logo.jpeg" alt="Logo principal" width="100"></a>
-            </div>
-
-            <div class="barra__buscador">
-                *BUSCADOR*
-            </div>
-            <div class="barra__iconos">
-                <img src="../Assets/Carrito de compras.png" alt="Carrito">
-            </div>
-        </section>
 
     </header>
 
-    <main>
+    <main class="fondo bg-gradient">
 
-        <h2>Formas de Pago</h2>
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center">
+                <div class="card mb-3 col-sm-6 col-lg-4 mx-2 mt-lg-5 mt-3" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-4 ">
+                            <img src="../Assets/Tarjeta.png" class="img-fluid rounded mx-auto d-block " alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">6, 12 y 24 cuotas sin interes</h5>
+                                <a class="card-text">Consulta nuestras promociones vigentes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 col-sm-6 col-lg-3 mx-2 mt-lg-5" style="max-width: 540px;">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-4 jus">
+                            <img src="../Assets/Camion.png" class="img-fluid rounded mx-auto d-block" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Envios Gratis</h5>
+                                <p class="card-text">Con la compra de $6.000 o mas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 col-sm-6 col-lg-3 mx-2 mt-lg-5" style="max-width: 540px;">
+                    <div class="row g-0 justify-content-center align-items-center">
+                        <div class="col-md-4 ">
+                            <img src="../Assets/Mapa.png" class="img-fluid rounded mx-auto d-block" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Showroom Bahía Blanca</h5>
+                                <p class="card-text">Brown 225, local 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container d-flex">
+            <div class="row">
+                <h3 class="titulo text-light ">
+                    Formas de Pago
+                </h3>
+                <div class="d-flex justify-content-center">
+                    <img class="w-75" src="../Assets/pagos.png" alt="...">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container bg-secondary w-25">
+            <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Assets/carrusel1.png" class="d-block w-100" alt="Promo 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Assets/carrusel2.png" class="d-block w-100" alt="Promo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Assets/carrusel3.png" class="d-block w-100" alt="Promo 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- <h2>Formas de Pago</h2>
 
         <section>
             <h3>Tarjetas</h3>
@@ -76,7 +187,7 @@
             <h3>Mayoristas</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus ut adipisci dignissimos
                 corporis vitae dolore expedita excepturi aspernatur corrupti?</p>
-        </section>
+        </section> -->
 
 
     </main>
@@ -130,6 +241,9 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 
 </body>
 
