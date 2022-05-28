@@ -455,3 +455,8 @@ div[class|="sponsors__socio"] {
   {
       background-color: #486f99;
   }
+
+  .info-tarjeta{
+      text-decoration: none;
+      color: rgb(33, 139, 231)
+  }
