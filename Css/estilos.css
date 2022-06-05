@@ -9,7 +9,7 @@
 
 /* Estilos del container */
 
-.container__grid {
+/* .container__grid {
     display: grid;
     grid-template-columns: repeat 1fr;
     grid-template-areas:
@@ -17,7 +17,7 @@
         "main"
         "footer";
     grid-template-rows: auto;
-}
+} */
 
 /*INDEX.HTML*/
 
