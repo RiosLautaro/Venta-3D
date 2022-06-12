@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: $color-fondo;
+}
+
+.indice {
+    ul {
+        display: flex;
+        justify-content: flex start;
+        gap: 1%;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 0.3%;
+        padding-bottom: 0.2%;
+        padding-left: 1%;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            font-weight: 600;
+        }
+    }
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos a Bay3d</title>
     <link rel="shortcut icon" href="favicon.ico.jpeg">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,247 +16,246 @@
 
 <body>
 
-    <div class="container__grid">
+    <header>
 
-        <header class="header">
+        <nav class="navbar navbar-expand-lg bg-secondary bg-gradient d-flex">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../Assets/Logo.jpeg" alt="" width="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogo
+                            </a>
+                            <ul class="dropdown-menu bg-secondary bg-gradient" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-light"
+                                        href="./Paginas/Catalogo.html#Filamentos">Filamentos</a>
+                                </li>
+                                <li><a class="dropdown-item text-light"
+                                        href="./Paginas/Catalogo.html#Accesorios">Accesorios</a>
+                                </li>
+                                <li><a class="dropdown-item text-light"
+                                        href="./Paginas/Catalogo.html#Adornos">Adornos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="./Paginas/pago.html">Formas de
+                                pago</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./Paginas/Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./Paginas/Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">+54 11 39282143</a>
+                        </li>
 
-            <nav class="navbar navbar-expand-lg bg-secondary bg-gradient d-flex">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../Assets/Logo.jpeg" alt="" width="50">
+                        <li class="nav-item">
+                            <a class="nav-link text-light disabled" href="#">Brown 225, local 3. Bahia Blanca</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- FALTA AGREGAR RRSS -->
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <nav class="indice">
+            <ul>
+                <li><a href="">Hot Sale Hasta 45% OFF</a></li>
+                <li><a href="index.html#ofertaSemanal">Ofertas Semanales</a></li>
+                <li><a href="index.html#nuestrosSocios">Nuestros Socios</a></li>
+            </ul>
+        </nav>
+
+        <section class="info">
+            <div class="info__tarjeta-1">
+                <ul>
+                    <li><img src="Assets/Tarjeta.png" alt="Pagos"></li>
+                    <li>6, 12 y 24 cuotas sin interes</li>
+                    <li><a href="">Consulta nuestras promociones vigentes</a></li>
+                </ul>
+            </div>
+
+            <div class="info__tarjeta-2">
+                <ul>
+                    <li><img src="Assets/Camion.png" alt="Envio"></li>
+                    <li>Envio gratis a todo el pais</li>
+                </ul>
+            </div>
+            <div class="info__tarjeta-3">
+                <ul>
+                    <li><img src="Assets/Mapa.png" alt="Showroom"></li>
+                    <li>Showroom Bahía Blanca</li>
+                    <li>Brown 225, local 3</li>
+                </ul>
+            </div>
+            <div class="info__tarjeta-4">
+                <ul>
+                    <li><img src="Assets/Engranaje.png" alt="Soporte"></li>
+                    <li>Soporte tecnico las 24 horas</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="destacados">
+
+            <h2 class="titulo animate__animated animate__headShake animate__delay-1s">Productos destacados</h2>
+
+            <!-- Posteriormente, se cambiaran los links por los correspondientes a cada producto -->
+
+            <div class="generico__productos animate__animated animate__fadeInDown">
+
+                <div class="generico__prod-1">
+                    <a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg" alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Catalogo
-                                </a>
-                                <ul class="dropdown-menu bg-secondary bg-gradient" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-light" href="./Paginas/Catalogo.html#Filamentos">Filamentos</a>
-                                    </li>
-                                    <li><a class="dropdown-item text-light" href="./Paginas/Catalogo.html#Accesorios">Accesorios</a>
-                                    </li>
-                                    <li><a class="dropdown-item text-light" href="./Paginas/Catalogo.html#Adornos">Adornos</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" aria-current="page" href="./Paginas/pago.html">Formas de
-                                    pago</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="./Paginas/Nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="./Paginas/Contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light disabled" href="#">+54 11 39282143</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link text-light disabled" href="#">Brown 225, local 3. Bahia Blanca</a>
-                            </li>
-    
-                        </ul>
-    
-                        <!-- FALTA AGREGAR RRSS -->
-    
-                    </div>
                 </div>
-            </nav>
+                <div class="generico__prod-2">
+                    <a href="./Paginas/Catalogo.html "><img src="Assets/Mate 3.jpeg" alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
+                    </a>
+                </div>
+                <div class="generico__prod-3">
+                    <a href="./Paginas/Catalogo.html "><img src="Assets/Mate 3.jpeg" alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
+                    </a>
+                </div>
+            </div>
 
-        </header>
+            <div class="espacio"></div>
 
-        <main class="main">
+        </section>
 
-            <nav class="indice">
+        <section class="semanal" id="ofertaSemanal">
+
+            <h2 class="titulo animate__animated animate__headShake animate__delay-1s">Oferta Semanal</h2>
+
+            <!-- Posteriormente, se cambiaran los links por los correspondientes a cada producto -->
+
+            <div class="generico__productos animate__animated animate__fadeInDown">
+                <div class="generico__prod-1">
+                    <a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg" alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
+                    </a>
+                </div>
+
+                <div class="generico__prod-2"><a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg"
+                            alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
+                    </a>
+                </div>
+
+                <div class="generico__prod-3"><a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg"
+                            alt="Mate">
+                        <p>Mate Mario Bros</p>
+                        <p>$1.200</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="espacio"></div>
+
+
+        </section>
+
+        <section class="sponsors " id="nuestrosSocios">
+
+            <!-- Informacion ficticia de marcas y sponsors -->
+
+            <h2 class="subtitulo blanco">Nuestros socios</h2>
+
+            <div class="sponsors-imagenes animate__animated animate__flipInX animate__slow">
+                <div class="sponsors__socio-1">
+                    <img src="Assets/Logo.jpeg" alt="logo">
+                </div>
+                <div class="sponsors__socio-2">
+                    <img src="Assets/Logo.jpeg" alt="logo">
+                </div>
+                <div class="sponsors__socio-3">
+                    <img src="Assets/Logo.jpeg" alt="logo">
+                </div>
+                <div class="sponsors__socio-4">
+                    <img src="Assets/Logo.jpeg" alt="logo">
+                </div>
+            </div>
+
+            <div class="espacio"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer__logo">
+            <a href="index.html"><img src="Assets/Logo.jpeg" alt="Logo principal" height="150" width="150"></a>
+        </div>
+
+        <!-- Posteriormente se agregaran links correspondientes, sigo en duda si dejar asi el diseño final -->
+        <div class="footer__productos">
+            <ul>
+                <li class="subtitulo">Productos</li>
                 <ul>
-                    <li><a href="">Hot Sale Hasta 45% OFF</a></li>
-                    <li><a href="index.html#ofertaSemanal">Ofertas Semanales</a></li>
-                    <li><a href="index.html#nuestrosSocios">Nuestros Socios</a></li>
+                    <li><a href="">Macetas</a></li>
+                    <li><a href="">Llaveros</a></li>
+                    <li><a href="">Mates</a></li>
+                    <li><a href="">Animales</a></li>
+                    <li><a href="">Soportes</a></li>
+                    <li><a href="">Varios</a></li>
                 </ul>
-            </nav>
 
-            <section class="info">
-                <div class="info__tarjeta-1">
-                    <ul>
-                        <li><img src="Assets/Tarjeta.png" alt="Pagos"></li>
-                        <li>6, 12 y 24 cuotas sin interes</li>
-                        <li><a href="">Consulta nuestras promociones vigentes</a></li>
-                    </ul>
-                </div>
-
-                <div class="info__tarjeta-2">
-                    <ul>
-                        <li><img src="Assets/Camion.png" alt="Envio"></li>
-                        <li>Envio gratis a todo el pais</li>
-                    </ul>
-                </div>
-                <div class="info__tarjeta-3">
-                    <ul>
-                        <li><img src="Assets/Mapa.png" alt="Showroom"></li>
-                        <li>Showroom Bahía Blanca</li>
-                        <li>Brown 225, local 3</li>
-                    </ul>
-                </div>
-                <div class="info__tarjeta-4">
-                    <ul>
-                        <li><img src="Assets/Engranaje.png" alt="Soporte"></li>
-                        <li>Soporte tecnico las 24 horas</li>
-                    </ul>
-                </div>
-
-            </section>
-
-            <section class="destacados">
-
-                <h2 class="titulo animate__animated animate__headShake animate__delay-1s">Productos destacados</h2>
-
-                <!-- Posteriormente, se cambiaran los links por los correspondientes a cada producto -->
-
-                <div class="generico__productos animate__animated animate__fadeInDown">
-
-                    <div class="generico__prod-1">
-                        <a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg" alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-                    <div class="generico__prod-2">
-                        <a href="./Paginas/Catalogo.html "><img src="Assets/Mate 3.jpeg" alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-                    <div class="generico__prod-3">
-                        <a href="./Paginas/Catalogo.html "><img src="Assets/Mate 3.jpeg" alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="espacio"></div>
-
-            </section>
-
-            <section class="semanal" id="ofertaSemanal">
-
-                <h2 class="titulo animate__animated animate__headShake animate__delay-1s">Oferta Semanal</h2>
-
-                <!-- Posteriormente, se cambiaran los links por los correspondientes a cada producto -->
-
-                <div class="generico__productos animate__animated animate__fadeInDown">
-                    <div class="generico__prod-1">
-                        <a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg" alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-
-                    <div class="generico__prod-2"><a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg"
-                                alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-
-                    <div class="generico__prod-3"><a href="./Paginas/Catalogo.html"><img src="Assets/Mate 3.jpeg"
-                                alt="Mate">
-                            <p>Mate Mario Bros</p>
-                            <p>$1.200</p>
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="espacio"></div>
+            </ul>
+        </div>
 
 
-            </section>
+        <!-- Posteriormente se agregaran links correspondientes, sigo en duda si dejar asi el diseño final -->
 
-            <section class="sponsors " id="nuestrosSocios">
-
-                <!-- Informacion ficticia de marcas y sponsors -->
-
-                <h2 class="subtitulo blanco">Nuestros socios</h2>
-
-                <div class="sponsors-imagenes animate__animated animate__flipInX animate__slow">
-                    <div class="sponsors__socio-1">
-                        <img src="Assets/Logo.jpeg" alt="logo">
-                    </div>
-                    <div class="sponsors__socio-2">
-                        <img src="Assets/Logo.jpeg" alt="logo">
-                    </div>
-                    <div class="sponsors__socio-3">
-                        <img src="Assets/Logo.jpeg" alt="logo">
-                    </div>
-                    <div class="sponsors__socio-4">
-                        <img src="Assets/Logo.jpeg" alt="logo">
-                    </div>
-                </div>
-
-                <div class="espacio"></div>
-
-            </section>
-
-        </main>
-
-
-        <footer class="footer">
-
-            <div class="footer__logo">
-                <a href="index.html"><img src="Assets/Logo.jpeg" alt="Logo principal" height="150" width="150"></a>
-            </div>
-
-            <!-- Posteriormente se agregaran links correspondientes, sigo en duda si dejar asi el diseño final -->
-            <div class="footer__productos">
+        <div class="footer__marcas">
+            <ul>
+                <li class="subtitulo">Marcas</li>
                 <ul>
-                    <li class="subtitulo">Productos</li>
-                    <ul>
-                        <li><a href="">Macetas</a></li>
-                        <li><a href="">Llaveros</a></li>
-                        <li><a href="">Mates</a></li>
-                        <li><a href="">Animales</a></li>
-                        <li><a href="">Soportes</a></li>
-                        <li><a href="">Varios</a></li>
-                    </ul>
-
+                    <li><a href="">Hellbot</a></li>
+                    <li><a href="">Creality</a></li>
+                    <li><a href="">Artillery</a></li>
+                    <li><a href="">Wanhao</a></li>
+                    <li><a href="">Anycubic</a></li>
+                    <li><a href="">Geetech</a></li>
                 </ul>
-            </div>
 
+            </ul>
+        </div>
 
-            <!-- Posteriormente se agregaran links correspondientes, sigo en duda si dejar asi el diseño final -->
+        <div class="footer__aclaracion">
+            <p>Todos los derechos reservados ® </p>
+        </div>
 
-            <div class="footer__marcas">
-                <ul>
-                    <li class="subtitulo">Marcas</li>
-                    <ul>
-                        <li><a href="">Hellbot</a></li>
-                        <li><a href="">Creality</a></li>
-                        <li><a href="">Artillery</a></li>
-                        <li><a href="">Wanhao</a></li>
-                        <li><a href="">Anycubic</a></li>
-                        <li><a href="">Geetech</a></li>
-                    </ul>
+    </footer>
 
-                </ul>
-            </div>
-
-            <div class="footer__aclaracion">
-                <p>Todos los derechos reservados ® </p>
-            </div>
-
-        </footer>
-
-
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">

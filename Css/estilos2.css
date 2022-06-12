@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rubik&display=swap');
@@ -23,59 +22,12 @@
 
 /* Estilos del header */
 
-
-.header {
-    grid-area: header;
-    background: rgb(165, 165, 165);
-    font-family: 'Raleway', sans-serif;
-    grid-area: header;
-}
-
-.header__nav {
-    width: 100%;
-    background: rgb(224, 224, 224);
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5px;
-}
-
-.header__nav ul {
-    display: flex;
-    align-items: center;
-}
-
-
-.header__nav li {
-    display: inline-block;
-    padding: 5px 10px;
-    border-right: 2px solid white;
-    text-decoration: none;
-}
-
-.header__nav a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.header__nav a:hover {
-    font-weight: 600;
-}
-
-.barra {
-    display: flex;
-    background-color: #A4A4A4;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* Seccion main */
 
-.main {
-    grid-area: main;
-}
+/* Seccion main - tarjetas */
 
-.indice {
-    background: rgb(224, 224, 224);
+body{
+    background-color: #e0e0e0;
 }
 
 .indice ul {
@@ -86,19 +38,14 @@
     text-decoration: none;
     padding-top: 0.3%;
     padding-bottom: 0.2%;
-    padding-left: 1%;
-}
-
-.indice a {
+    padding-left: 1%; }
+  
+  .indice a {
     text-decoration: none;
-    color: inherit;
-}
-
-.indice a:hover {
-    font-weight: 600;
-}
-
-/* Seccion main - tarjetas */
+    color: inherit; }
+    .indice a:hover {
+      font-weight: 600; }
+  
 
 .info {
     display: flex;
